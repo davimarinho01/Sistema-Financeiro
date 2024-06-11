@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0px;
+    padding:0;
+    font-family: Montserrat, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    height: 8vh;
+    background-color: #c09c83ec;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 2px 0px 3px rgb(102, 102, 102);
+}
+    
+    .title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        margin-left: 2em;
+        color: #755b48ec;
+        font-size: 10px;
+        font-style: italic;
+        font-weight: 500;
+    }
+
+/* SIDE BAR */
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+    .side-bar {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        width: 20%;
+        height: 86vh;
+        background-color: #d3c8bd;
+        box-shadow:2px 0px 0px rgba(180, 180, 180, 0.7);
+    }
+
+    .side-bar  a {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        border-bottom: 1px solid rgba(121, 121, 121, 0.171);
+        padding: fit-content;
+        text-align: left;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        font-size: 90%;
+        font-style: italic;
+        text-decoration: none;
+        color: #000;
+    }
+    .side-bar a:hover{
+        background-color: #999088;
+    }
+    .icon {
+        padding-left: .5em;
+        padding-right: .5em;
+    }
+
+/* PAINEL DE ENTRADAS */
+
+    .painel{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40%;
+        margin-right: 20%;
+        margin-top: 2em;
+        color: #755b48ec;
+    }
+
+    #graphic {
+        width: 100%;
+        height: fit-content;
+        padding: 2em;
+        margin-top: 5em;
+        margin-bottom: 30px;
+        background-color: #ebe6e2;
+        box-shadow: 0px 0px 5px rgb(94, 94, 94);
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 50px;
+        background-color: #c09c83ec;
+    }

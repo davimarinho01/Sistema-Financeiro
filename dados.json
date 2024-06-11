@@ -1,0 +1,71 @@
+{
+    "financeiro": [
+        {
+            "Faturamento": 3500,
+            "Entradas": 1250,
+            "Saidas": 400,
+            "Caixa": 1200
+        }
+    ],
+
+    "funcionarios": [
+        {
+            "nome": "Anderson Silva",
+            "cargo": "Cabelereiro",
+            "Entradas": 1800
+        },
+        
+        {
+            "nome": "Davi Marinho",
+            "cargo": "TI",
+            "Entradas": 4200
+        },
+
+        {
+            "nome": "Elizabete Ventura",
+            "cargo": "Nail Designer",
+            "Entradas": 1200
+        },
+
+        {
+            "nome": "Michela Marinho",
+            "cargo": "Cabelereiro / Gerente",
+            "Entradas": 3800
+        },
+
+        {
+            "nome": "Michel Webber",
+            "cargo": "Cabelereiro",
+            "Entradas": 1200
+        }
+    ],
+
+    "metPag": [
+        {
+            "pix": [
+                {
+                    "met": "PIX",
+                    "valor": 1200
+                }
+            ] ,
+            "Dinheiro": [
+                {
+                    "met": "Dinheiro",
+                    "valor": 1500
+                }
+            ],
+            "Credito": [
+                {
+                    "met": "Credito",
+                    "valor": 800
+                }
+            ],
+            "Debito": [
+                {
+                    "met": "Debito",
+                    "valor": 500
+                }
+            ]
+        }
+    ]
+}   

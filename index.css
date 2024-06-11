@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0px;
+    padding:0;
+    font-family: Montserrat, sans-serif;
+}
+body{
+    width: 100%;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    height: 8vh;
+    background-color: #c09c83ec;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 2px 0px 3px rgb(102, 102, 102);
+}
+    
+    .title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        margin-left: 2em;
+        color: #755b48ec;
+        font-size: 10px;
+        font-style: italic;
+        font-weight: 500;
+    }
+
+/* SIDE BAR */
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+    .side-bar {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        width: 20%;
+        background-color: #d3c8bd;
+        box-shadow:2px 0px 0px rgba(180, 180, 180, 0.7);
+    }
+
+    .side-bar  a {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        border-bottom: 1px solid rgba(121, 121, 121, 0.171);
+        padding: fit-content;
+        text-align: left;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        font-size: 90%;
+        font-style: italic;
+        text-decoration: none;
+        color: #000;
+    }
+    .side-bar a:hover{
+        background-color: #999088;
+    }
+    .icon {
+        padding-left: .5em;
+        padding-right: .5em;
+    }
+
+
+/* PAINEL DE INFORMAÇÕES */
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+    .cards {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        width: 80%;
+        height: auto;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1em;
+        background-color: #d3c8bd;
+        color: #6e563f;
+        width: 34%;
+        height: 20vh;
+        margin: 0px 25px 15px 15px;
+        padding-top: 15px;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0px 2px 5px rgb(112, 112, 112);
+    }
+
+    .saldo{
+        display: flex;
+        width: 75%;
+        height: 8em;
+        margin-bottom: 2em;
+    }
+
+    .values {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin: 0;
+        padding-top: 40px;
+        box-shadow: 0px 2px 0px rgb(110, 86, 63, 0.5);
+    }
+
+    .value {
+        padding: 5px;
+    }
+
+    .main-content > h1 {
+        margin-bottom: 30px;
+        color: #6e563f;
+    }
+
+    /* GRAFICO */
+    #graphic {
+        width: 60%;
+        height: fit-content;
+        padding: 2em;
+        margin-bottom: 30px;
+        background-color: #ebe6e2;
+        box-shadow: 0px 0px 5px rgb(94, 94, 94);
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 50px;
+        background-color: #c09c83ec;
+    }
+
+/* EXTRACT STYLES */
+
+.extract-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.extract-content h1{
+    margin-top: 2em;
+}
+
+.extract {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin-top: 2em;
+}
+
+.extract-num {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 2em;
+    border-bottom: 1px solid rgb(201, 201, 201);
+}
+
+.extract-content > button{
+    width: 30%;
+    padding: 1em;
+    background-color: #8ef803;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    margin-top: 3em;
+}
+
+.extract-content > button:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right, #8ef803, #72c506);
+    font-weight: bolder;
+}
+
+/* FUNCIONÁRIOS */
+
+.func-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 2em;
+}
+
+/* INPUTS */
+
+.active {
+    justify-content: center;
+    flex-direction: column;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding: 2em;
+    margin-top: 2em;
+}
